@@ -1,9 +1,9 @@
 public class FabriqueVehiculeElectrique : Fabrique {
-    public créeAutomobile() {
+    public Automobile créeAutomobile() {
         return new AutomobileElectrique();
     }
 
-    public créerScooter() {
+    public Scooter créerScooter() {
         return new ScooterElectrique();
     }
 }
